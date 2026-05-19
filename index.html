@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You 🤍</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🎂 CAKE PAGE -->
+  <section id="cakePage" class="page active">
+
+    <h1 class="title">make a wish 🤍</h1>
+
+    <div class="cake">
+      <div class="cake-top"></div>
+
+      <div class="candle">
+        <div class="flame" id="flame"></div>
+      </div>
+    </div>
+
+    <p class="hint">blow the candle softly...</p>
+
+  </section>
+
+  <!-- 👶 PHOTO PAGE -->
+  <section id="photoPage" class="page">
+
+    <div class="photo-wrapper">
+      <img src="baby.png" alt="baby" class="photo">
+    </div>
+
+    <button class="continue-btn" id="continueBtn">
+      continue →
+    </button>
+
+  </section>
+
+  <!-- 💌 ENVELOPE PAGE -->
+  <section id="envelopePage" class="page">
+
+    <div class="envelope-container">
+
+      <div class="envelope" id="envelope">
+
+        <div class="envelope-flap"></div>
+
+        <div class="envelope-letter">
+          open letter 💌
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- 📜 LETTER PAGE -->
+  <section id="letterPage" class="page">
+
+    <div class="letter-paper">
+
+      <h2>to you,</h2>
+
+      <p id="typedText"></p>
+
+    </div>
+
+    <audio id="music" src="song.mp3"></audio>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
