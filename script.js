@@ -111,17 +111,17 @@ function startMusic(){
 /* ✍️ TYPEWRITER */
 function startTyping(){
 
-  const text = `Happy birthday, my love.
+   const text = `Happy birthday, My Love.
 
-before you, I never realized how much one person could change the way life feels.
+Before you, I never realized how much one person could change the way life feels.
 
-You became my comfort without even trying. You became the person I look for in every moment — whether something good happens or when life feels too heavy to carry.
+You became my comfort without even trying. You became the person I look for in every moment—whether something good happens or when life feels too heavy to carry.
 
 Thank you for loving me gently.
 Thank you for being patient with me.
 Thank you for staying even on the days I felt difficult to love.
 
-I know you carry a lot silently sometimes, and I wish I could take away every sadness, pressure, and exhaustion you feel. If I could give you one thing in this life, it would be peace — the kind of peace your heart truly deserves.
+I know you carry a lot silently sometimes, and I wish I could take away every sadness, pressure, and exhaustion you feel. If I could give you one thing in this life, it would be peace—the kind of peace your heart truly deserves.
 
 I hope you never doubt how important you are.
 To me, you are not just someone I love.
@@ -131,7 +131,6 @@ And no matter where life takes us in the future, a part of my heart will always 
 
 Happy birthday, Lovie.
 I love you endlessly.`;
-
   const output = document.getElementById("typedText");
 
   output.innerHTML = "";
