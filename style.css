@@ -338,6 +338,10 @@ body{
   animation:letterFade 1s ease;
 }
 
+#typedText{
+  white-space:pre-line;
+}
+
 @keyframes letterFade{
   from{
     opacity:0;
