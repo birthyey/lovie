@@ -146,7 +146,7 @@ I love you endlessly.`;
 
       i++;
 
-      setTimeout(typing,28);
+      setTimeout(typing,55);
     }
   }
 
