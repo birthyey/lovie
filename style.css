@@ -119,6 +119,102 @@ body{
   }
 }
 
+/* 🎂 REAL CAKE */
+
+.cake{
+  width:240px;
+  height:150px;
+
+  background:#d8a48f;
+
+  border-radius:12px;
+
+  position:relative;
+
+  box-shadow:
+  0 15px 35px rgba(0,0,0,0.15),
+  inset 0 -10px 0 rgba(0,0,0,0.05);
+}
+
+/* ICING */
+.icing{
+  position:absolute;
+
+  top:0;
+
+  width:100%;
+  height:35px;
+
+  background:#fff2ea;
+
+  border-radius:12px 12px 0 0;
+}
+
+/* DRIPS */
+.drip{
+  position:absolute;
+
+  width:22px;
+
+  background:#fff2ea;
+
+  border-radius:0 0 12px 12px;
+}
+
+.drip1{
+  height:40px;
+  left:40px;
+  top:25px;
+}
+
+.drip2{
+  height:55px;
+  left:100px;
+  top:25px;
+}
+
+.drip3{
+  height:35px;
+  left:170px;
+  top:25px;
+}
+
+/* PLATE */
+.plate{
+  position:absolute;
+
+  bottom:-15px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  width:280px;
+  height:18px;
+
+  background:#e8ded0;
+
+  border-radius:50%;
+}
+
+/* BETTER FLAME */
+.flame{
+  width:16px;
+  height:26px;
+
+  background:radial-gradient(circle,#ffd36b 0%,orange 70%);
+
+  border-radius:50% 50% 50% 50%;
+
+  position:absolute;
+
+  top:-24px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  animation:flicker 0.8s infinite alternate;
+}
+
 /* 👶 PHOTO PAGE */
 .photo-wrapper{
   display:flex;
@@ -127,9 +223,9 @@ body{
 }
 
 .photo{
-  width:min(82vw,650px);
+  width:min(90vw,790px);
 
-  max-height:75vh;
+  max-height:80vh;
 
   object-fit:contain;
 
