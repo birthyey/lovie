@@ -113,8 +113,7 @@ function startTyping(){
 
    const text = `Happy birthday, My Love.
 
-Before you, I never realized how much one person could change the way life feels.
-You became my comfort without even trying. You became the person I look for in every moment—whether something good happens or when life feels too heavy to carry.
+Before you, I never realized how much one person could change the way life feels. You became my comfort without even trying. You became the person I look for in every moment—whether something good happens or when life feels too heavy to carry.
 
 Thank you for loving me gently.
 Thank you for being patient with me.
@@ -122,8 +121,7 @@ Thank you for staying even on the days I felt difficult to love.
 
 I know you carry a lot silently sometimes, and I wish I could take away every sadness, pressure, and exhaustion you feel. If I could give you one thing in this life, it would be peace—the kind of peace your heart truly deserves.
 I hope you never doubt how important you are.
-To me, you are not just someone I love.
-You are someone I thank life for every single day.
+To me, you are not just someone I love. You are someone I thank life for every single day.
 And no matter where life takes us in the future, a part of my heart will always choose you.
 
 Happy birthday, Lovie.
