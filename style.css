@@ -127,9 +127,9 @@ body{
 }
 
 .photo{
-  width:min(70vw,520px);
+  width:min(82vw,650px);
 
-  max-height:65vh;
+  max-height:75vh;
 
   object-fit:contain;
 
